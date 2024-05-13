@@ -13,7 +13,13 @@ Algoritmo sin_titulo
 	
 	total= isv+subtotal
 	
+	escribir "Subtotal " subtotal
+	escribir "ISV " isv
 	escribir "Total a pagar: " total
+	
+	
+	
+	
 	
 	
 	

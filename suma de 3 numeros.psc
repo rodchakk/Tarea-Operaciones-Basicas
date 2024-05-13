@@ -9,6 +9,9 @@ Algoritmo sin_titulo
 	Escribir "Ingrese el tercer numero: "
 	Leer n3
 	
+	suma=n1+n2+n3
+	
+	escribir "El resultado es: " suma
 	
 	
 	

@@ -7,8 +7,22 @@
 Algoritmo sin_titulo
 	
 	
+	definir clases, suma, promedio, n Como Real
+	Definir acumulado Como Entero
+	acumulado <- 1
+	suma <- 0
 	
+	Escribir "Cuantas clases desea cursar?"
+	leer clases
+	Mientras acumulado <= clases Hacer
+		Escribir "Ingrese la nota numero ", acumulado
+		leer n
+		suma <- suma + n
+		acumulado <- acumulado + 1
+	Fin Mientras
 	
-	
-	
+	promedio <- suma / clases
+	Escribir "El promedio es: ", promedio
 FinAlgoritmo
+	
+
